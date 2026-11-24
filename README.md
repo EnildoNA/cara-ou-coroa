@@ -1,12 +1,12 @@
-# 🪙 Cara ou Coroa (Flip the Coin)
+# Cara ou Coroa (Flip the Coin)
 
 Um mini-jogo simples e interativo de Cara ou Coroa desenvolvido com HTML, CSS e JavaScript.
 
-🔗 **Acesse o projeto online:** [https://cara-ou-coroa-three.vercel.app](https://cara-ou-coroa-three.vercel.app)
+**Acesse o projeto online:** [https://cara-ou-coroa-three.vercel.app](https://cara-ou-coroa-three.vercel.app)
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - Sorteio aleatório entre Cara e Coroa.
 - Animação de rotação/flip ao acionar a moeda ou o botão.
@@ -14,7 +14,7 @@ Um mini-jogo simples e interativo de Cara ou Coroa desenvolvido com HTML, CSS e 
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **HTML5** (Estrutura semântica)
 - **CSS3** (Estilização e animações)
@@ -23,7 +23,7 @@ Um mini-jogo simples e interativo de Cara ou Coroa desenvolvido com HTML, CSS e 
 
 ---
 
-## 💻 Como executar localmente
+## Como executar localmente
 
 1. Clone o repositório:
    ```bash
