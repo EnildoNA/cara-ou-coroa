@@ -10,7 +10,7 @@ main.addEventListener("click", function(event){
     coin.classList.add("flipping");
     const result = Math.random() < 0.5 ? "Heads" : "Tails";
     setTimeout(() => {
-        document.coin.src = `./assets/${result.toLowerCase()}.svg`;
+        document.querySelector("img").src = `./assets/${result.toLowerCase()}.svg`;
     }, 750);
     setTimeout(() => {
         document.querySelector("p").textContent = result;
