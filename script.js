@@ -1,9 +1,20 @@
 const button = document.getElementById("flip");
 const main = document.getElementById("main");
+const coin = document.getElementById("coin");
+let isFlipping = false;
 
 main.addEventListener("click", function(event){
+    if (isFlipping) return;
     event.preventDefault();
+     isFlipping = true;
+    coin.classList.add("flipping");
     const result = Math.random() < 0.5 ? "Heads" : "Tails";
-    document.querySelector("p").textContent = result;
-    document.querySelector("img").src = `./assets/${result.toLowerCase()}.svg`
+    setTimeout(() => {
+        document.coin.src = `./assets/${result.toLowerCase()}.svg`;
+    }, 750);
+    setTimeout(() => {
+        document.querySelector("p").textContent = result;
+        coin.classList.remove("flipping");
+        isFlipping = false;
+    }, 1500);
 })
