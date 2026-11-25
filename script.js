@@ -4,8 +4,7 @@ let isFlipping = false;
 
 main.addEventListener("click", function(event){
     if (isFlipping) return;
-    event.preventDefault();
-     isFlipping = true;
+    isFlipping = true;
     coin.classList.add("flipping");
     const result = Math.random() < 0.5 ? "Heads" : "Tails";
     setTimeout(() => {
