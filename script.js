@@ -1,4 +1,3 @@
-const button = document.getElementById("flip");
 const main = document.getElementById("main");
 const coin = document.getElementById("coin");
 let isFlipping = false;
